@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Gym_Timer_Watch_App" customModuleProvider="target">
+                    <items>
+                        <timer width="1" height="40" alignment="center" textAlignment="center" format="short" previewedSeconds="60" id="0n0-6t-l3w">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                        </timer>
+                        <group width="1" height="1" alignment="center" verticalAlignment="center" layout="vertical" hasDetent="YES" id="ZeE-7Y-FTr">
+                            <items>
+                                <group width="1" alignment="left" id="wra-D3-AJk">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="Go" id="Dss-W6-WyJ"/>
+                                        <slider width="0.70000000000000007" alignment="right" verticalAlignment="center" value="0.20000000000000015" steps="6" id="qIc-Mc-zjA">
+                                            <connections>
+                                                <action selector="activeSlider_value:" destination="AgC-eL-Hgc" id="jWa-vc-EPB"/>
+                                            </connections>
+                                        </slider>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="JWc-bX-9TQ">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="Rest" id="mZN-ZS-9pL"/>
+                                        <slider width="0.70000000000000007" alignment="right" value="0.20000000000000004" steps="6" id="0SB-8l-jbu">
+                                            <connections>
+                                                <action selector="restSlider_value:" destination="AgC-eL-Hgc" id="OgN-OK-DYR"/>
+                                            </connections>
+                                        </slider>
+                                    </items>
+                                </group>
+                                <button width="1" alignment="center" title="Start" id="65d-wf-pzd">
+                                    <connections>
+                                        <action selector="btnStart_click" destination="AgC-eL-Hgc" id="kdE-Kn-TUp"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="btnStart" destination="65d-wf-pzd" id="57K-Hm-Dcr"/>
+                        <outlet property="group" destination="ZeE-7Y-FTr" id="1DS-h0-bxJ"/>
+                        <outlet property="groupActive" destination="wra-D3-AJk" id="Qmr-8I-wOW"/>
+                        <outlet property="groupRest" destination="JWc-bX-9TQ" id="U5J-vK-Ywc"/>
+                        <outlet property="restSlider" destination="0SB-8l-jbu" id="ggS-I4-OMC"/>
+                        <outlet property="timer" destination="0n0-6t-l3w" id="7So-LT-a7h"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Gym_Timer_Watch_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Gym_Timer_Watch_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+</document>

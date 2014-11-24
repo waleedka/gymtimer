@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EF772081A2269D800875439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF772071A2269D800875439 /* AppDelegate.swift */; };
+		7EF7720A1A2269D800875439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF772091A2269D800875439 /* ViewController.swift */; };
+		7EF7720D1A2269D800875439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF7720B1A2269D800875439 /* Main.storyboard */; };
+		7EF7720F1A2269D800875439 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF7720E1A2269D800875439 /* Images.xcassets */; };
+		7EF772121A2269D800875439 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF772101A2269D800875439 /* LaunchScreen.xib */; };
+		7EF7721E1A2269D800875439 /* Gym_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7721D1A2269D800875439 /* Gym_TimerTests.swift */; };
+		7EF7722E1A226E2900875439 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF7722D1A226E2900875439 /* WatchKit.framework */; };
+		7EF772341A226E2900875439 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF772331A226E2900875439 /* InterfaceController.swift */; };
+		7EF772361A226E2900875439 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF772351A226E2900875439 /* NotificationController.swift */; };
+		7EF772381A226E2900875439 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF772371A226E2900875439 /* GlanceController.swift */; };
+		7EF7723A1A226E2900875439 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF772391A226E2900875439 /* Images.xcassets */; };
+		7EF7723E1A226E2900875439 /* Gym Timer Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7EF7723D1A226E2900875439 /* Gym Timer Watch App.app */; };
+		7EF772451A226E2900875439 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF772441A226E2900875439 /* Interface.storyboard */; };
+		7EF7724A1A226E2900875439 /* Gym Timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7EF7722B1A226E2900875439 /* Gym Timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7EF772571A22816D00875439 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF772561A22816D00875439 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EF772181A2269D800875439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF771FA1A2269D800875439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF772011A2269D800875439;
+			remoteInfo = "Gym Timer";
+		};
+		7EF7723F1A226E2900875439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF771FA1A2269D800875439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF7723C1A226E2900875439;
+			remoteInfo = "Gym Timer Watch App";
+		};
+		7EF772481A226E2900875439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF771FA1A2269D800875439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF7722A1A226E2900875439;
+			remoteInfo = "Gym Timer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EF772511A226E2900875439 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7EF7724A1A226E2900875439 /* Gym Timer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EF772021A2269D800875439 /* Gym Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF772061A2269D800875439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF772071A2269D800875439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EF772091A2269D800875439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EF7720C1A2269D800875439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EF7720E1A2269D800875439 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EF772111A2269D800875439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7EF772171A2269D800875439 /* Gym TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF7721C1A2269D800875439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF7721D1A2269D800875439 /* Gym_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_TimerTests.swift; sourceTree = "<group>"; };
+		7EF7722B1A226E2900875439 /* Gym Timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gym Timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF7722D1A226E2900875439 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		7EF772311A226E2900875439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF772321A226E2900875439 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		7EF772331A226E2900875439 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7EF772351A226E2900875439 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7EF772371A226E2900875439 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		7EF772391A226E2900875439 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EF7723D1A226E2900875439 /* Gym Timer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Timer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF772431A226E2900875439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF772441A226E2900875439 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		7EF772561A22816D00875439 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EF771FF1A2269D800875439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF772141A2269D800875439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF772281A226E2900875439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF7722E1A226E2900875439 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EF771F91A2269D800875439 = {
+			isa = PBXGroup;
+			children = (
+				7EF772041A2269D800875439 /* Gym Timer */,
+				7EF7721A1A2269D800875439 /* Gym TimerTests */,
+				7EF7722F1A226E2900875439 /* Gym Timer WatchKit Extension */,
+				7EF772411A226E2900875439 /* Gym Timer Watch App */,
+				7EF7722C1A226E2900875439 /* Frameworks */,
+				7EF772031A2269D800875439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF772031A2269D800875439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772021A2269D800875439 /* Gym Timer.app */,
+				7EF772171A2269D800875439 /* Gym TimerTests.xctest */,
+				7EF7722B1A226E2900875439 /* Gym Timer WatchKit Extension.appex */,
+				7EF7723D1A226E2900875439 /* Gym Timer Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EF772041A2269D800875439 /* Gym Timer */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772071A2269D800875439 /* AppDelegate.swift */,
+				7EF772091A2269D800875439 /* ViewController.swift */,
+				7EF7720B1A2269D800875439 /* Main.storyboard */,
+				7EF7720E1A2269D800875439 /* Images.xcassets */,
+				7EF772101A2269D800875439 /* LaunchScreen.xib */,
+				7EF772051A2269D800875439 /* Supporting Files */,
+			);
+			path = "Gym Timer";
+			sourceTree = "<group>";
+		};
+		7EF772051A2269D800875439 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772061A2269D800875439 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF7721A1A2269D800875439 /* Gym TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7721D1A2269D800875439 /* Gym_TimerTests.swift */,
+				7EF7721B1A2269D800875439 /* Supporting Files */,
+			);
+			path = "Gym TimerTests";
+			sourceTree = "<group>";
+		};
+		7EF7721B1A2269D800875439 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7721C1A2269D800875439 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF7722C1A226E2900875439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7722D1A226E2900875439 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EF7722F1A226E2900875439 /* Gym Timer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772331A226E2900875439 /* InterfaceController.swift */,
+				7EF772351A226E2900875439 /* NotificationController.swift */,
+				7EF772371A226E2900875439 /* GlanceController.swift */,
+				7EF772391A226E2900875439 /* Images.xcassets */,
+				7EF772301A226E2900875439 /* Supporting Files */,
+			);
+			path = "Gym Timer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7EF772301A226E2900875439 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772311A226E2900875439 /* Info.plist */,
+				7EF772321A226E2900875439 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF772411A226E2900875439 /* Gym Timer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772441A226E2900875439 /* Interface.storyboard */,
+				7EF772421A226E2900875439 /* Supporting Files */,
+				7EF772561A22816D00875439 /* Images.xcassets */,
+			);
+			path = "Gym Timer Watch App";
+			sourceTree = "<group>";
+		};
+		7EF772421A226E2900875439 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF772431A226E2900875439 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EF772011A2269D800875439 /* Gym Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF772211A2269D800875439 /* Build configuration list for PBXNativeTarget "Gym Timer" */;
+			buildPhases = (
+				7EF771FE1A2269D800875439 /* Sources */,
+				7EF771FF1A2269D800875439 /* Frameworks */,
+				7EF772001A2269D800875439 /* Resources */,
+				7EF772511A226E2900875439 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF772491A226E2900875439 /* PBXTargetDependency */,
+			);
+			name = "Gym Timer";
+			productName = "Gym Timer";
+			productReference = 7EF772021A2269D800875439 /* Gym Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EF772161A2269D800875439 /* Gym TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF772241A2269D800875439 /* Build configuration list for PBXNativeTarget "Gym TimerTests" */;
+			buildPhases = (
+				7EF772131A2269D800875439 /* Sources */,
+				7EF772141A2269D800875439 /* Frameworks */,
+				7EF772151A2269D800875439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF772191A2269D800875439 /* PBXTargetDependency */,
+			);
+			name = "Gym TimerTests";
+			productName = "Gym TimerTests";
+			productReference = 7EF772171A2269D800875439 /* Gym TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EF7722A1A226E2900875439 /* Gym Timer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF7724E1A226E2900875439 /* Build configuration list for PBXNativeTarget "Gym Timer WatchKit Extension" */;
+			buildPhases = (
+				7EF772271A226E2900875439 /* Sources */,
+				7EF772281A226E2900875439 /* Frameworks */,
+				7EF772291A226E2900875439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF772401A226E2900875439 /* PBXTargetDependency */,
+			);
+			name = "Gym Timer WatchKit Extension";
+			productName = "Gym Timer WatchKit Extension";
+			productReference = 7EF7722B1A226E2900875439 /* Gym Timer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7EF7723C1A226E2900875439 /* Gym Timer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF7724B1A226E2900875439 /* Build configuration list for PBXNativeTarget "Gym Timer Watch App" */;
+			buildPhases = (
+				7EF7723B1A226E2900875439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gym Timer Watch App";
+			productName = "Gym Timer Watch App";
+			productReference = 7EF7723D1A226E2900875439 /* Gym Timer Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EF771FA1A2269D800875439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Waleed;
+				TargetAttributes = {
+					7EF772011A2269D800875439 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7EF772161A2269D800875439 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7EF772011A2269D800875439;
+					};
+					7EF7722A1A226E2900875439 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7EF7723C1A226E2900875439 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 7EF771FD1A2269D800875439 /* Build configuration list for PBXProject "Gym Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EF771F91A2269D800875439;
+			productRefGroup = 7EF772031A2269D800875439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EF772011A2269D800875439 /* Gym Timer */,
+				7EF772161A2269D800875439 /* Gym TimerTests */,
+				7EF7722A1A226E2900875439 /* Gym Timer WatchKit Extension */,
+				7EF7723C1A226E2900875439 /* Gym Timer Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EF772001A2269D800875439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF7720D1A2269D800875439 /* Main.storyboard in Resources */,
+				7EF772121A2269D800875439 /* LaunchScreen.xib in Resources */,
+				7EF7720F1A2269D800875439 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF772151A2269D800875439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF772291A226E2900875439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF7723E1A226E2900875439 /* Gym Timer Watch App.app in Resources */,
+				7EF7723A1A226E2900875439 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF7723B1A226E2900875439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF772571A22816D00875439 /* Images.xcassets in Resources */,
+				7EF772451A226E2900875439 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EF771FE1A2269D800875439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF7720A1A2269D800875439 /* ViewController.swift in Sources */,
+				7EF772081A2269D800875439 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF772131A2269D800875439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF7721E1A2269D800875439 /* Gym_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF772271A226E2900875439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF772361A226E2900875439 /* NotificationController.swift in Sources */,
+				7EF772341A226E2900875439 /* InterfaceController.swift in Sources */,
+				7EF772381A226E2900875439 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EF772191A2269D800875439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF772011A2269D800875439 /* Gym Timer */;
+			targetProxy = 7EF772181A2269D800875439 /* PBXContainerItemProxy */;
+		};
+		7EF772401A226E2900875439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF7723C1A226E2900875439 /* Gym Timer Watch App */;
+			targetProxy = 7EF7723F1A226E2900875439 /* PBXContainerItemProxy */;
+		};
+		7EF772491A226E2900875439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF7722A1A226E2900875439 /* Gym Timer WatchKit Extension */;
+			targetProxy = 7EF772481A226E2900875439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EF7720B1A2269D800875439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF7720C1A2269D800875439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EF772101A2269D800875439 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF772111A2269D800875439 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EF7721F1A2269D800875439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF772201A2269D800875439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF772221A2269D800875439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Gym Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EF772231A2269D800875439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Gym Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EF772251A2269D800875439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gym TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Timer.app/Gym Timer";
+			};
+			name = Debug;
+		};
+		7EF772261A2269D800875439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gym TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Timer.app/Gym Timer";
+			};
+			name = Release;
+		};
+		7EF7724C1A226E2900875439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Gym_Timer_WatchKit_Extension;
+				INFOPLIST_FILE = "Gym Timer Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7EF7724D1A226E2900875439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Gym_Timer_WatchKit_Extension;
+				INFOPLIST_FILE = "Gym Timer Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		7EF7724F1A226E2900875439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gym Timer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7EF772501A226E2900875439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gym Timer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EF771FD1A2269D800875439 /* Build configuration list for PBXProject "Gym Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7721F1A2269D800875439 /* Debug */,
+				7EF772201A2269D800875439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF772211A2269D800875439 /* Build configuration list for PBXNativeTarget "Gym Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF772221A2269D800875439 /* Debug */,
+				7EF772231A2269D800875439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EF772241A2269D800875439 /* Build configuration list for PBXNativeTarget "Gym TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF772251A2269D800875439 /* Debug */,
+				7EF772261A2269D800875439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EF7724B1A226E2900875439 /* Build configuration list for PBXNativeTarget "Gym Timer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7724C1A226E2900875439 /* Debug */,
+				7EF7724D1A226E2900875439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EF7724E1A226E2900875439 /* Build configuration list for PBXNativeTarget "Gym Timer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7724F1A226E2900875439 /* Debug */,
+				7EF772501A226E2900875439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EF771FA1A2269D800875439 /* Project object */;
+}
