@@ -47,10 +47,6 @@ class InterfaceController: WKInterfaceController {
         switchStatus()
     }
     
-    func timerEvent(){
-        
-    }
-    
     func switchStatus(){
         
         if (gStatus == ""){
@@ -59,6 +55,7 @@ class InterfaceController: WKInterfaceController {
             btnStart.setHidden(true)
             groupActive.setHidden(true)
             groupRest.setHidden(true)
+            timer.setHidden(false)
             
             // Set image
             group.setBackgroundImageNamed("workout")
@@ -91,9 +88,9 @@ class InterfaceController: WKInterfaceController {
         }
         else {
             gStatus = ""
-            group.setBackgroundImageNamed("")
             btnStart.setHidden(false)
             timer.stop()
+            timer.setHidden(true)
         }
 
     }

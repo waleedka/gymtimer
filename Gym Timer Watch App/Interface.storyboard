@@ -10,11 +10,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Gym_Timer_Watch_App" customModuleProvider="target">
                     <items>
-                        <timer width="1" height="40" alignment="center" textAlignment="center" format="short" previewedSeconds="60" id="0n0-6t-l3w">
-                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                        </timer>
                         <group width="1" height="1" alignment="center" verticalAlignment="center" layout="vertical" hasDetent="YES" id="ZeE-7Y-FTr">
                             <items>
+                                <timer width="1" height="40" alignment="center" textAlignment="center" format="short" previewedSeconds="60" id="0n0-6t-l3w">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                </timer>
                                 <group width="1" alignment="left" id="wra-D3-AJk">
                                     <items>
                                         <label alignment="left" verticalAlignment="center" text="Go" id="Dss-W6-WyJ"/>
